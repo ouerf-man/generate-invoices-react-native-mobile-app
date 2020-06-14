@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "545232068388",
+    "firebase_url": "https://techno-vision-16d88.firebaseio.com",
+    "project_id": "techno-vision-16d88",
+    "storage_bucket": "techno-vision-16d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545232068388:android:6f0924cc2c910f40b61db1",
+        "android_client_info": {
+          "package_name": "com.vision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545232068388-ubts7nh627o5m5cdtg2968mosoj0qcnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO3KCxM_ZFLQ3XioybHRSdsRNNVQGg0Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545232068388-ubts7nh627o5m5cdtg2968mosoj0qcnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
