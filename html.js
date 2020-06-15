@@ -152,7 +152,7 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
             font-weight: bold;
             font-size: 15px;
             display: inline-block;
-            width: 80px;
+            width: 130px;
         }
 
         .names {
@@ -163,6 +163,8 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
             border: solid 1px #8c8c8c;
             padding: 60px;
             border-radius: 15px;
+            max-width: 200px;
+            line-height: 25px;
         }
     </style>
     <div id="invoice">
@@ -173,12 +175,12 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
                 <h1 style="color: #717375;">
                     EHTE
                 </h1>
-                <p style="font-size: 1.3em;color: #717375;margin-bottom: 10px;line-height: 1.1em;">Société
+                <p style="font-size: 1.3em;color: #717375;margin-bottom: 10px;line-height: 1.1em;">Entreprise
                     Hannachi Chouaib.<br />Travaux électriques générale</p>
                 <p style="line-height:25px;">
             </div>
             Cité L'indépendance 6120, krib siliana <br /><span>Tel:</span> 58 130 838 <br />
-            <div style="display: inline;position: relative;left: 80px;">
+            <div style="display: inline;position: relative;left: 130px;">
                 - 90 614 146
             </div> <br /><span>Fax:</span> 78 895 036<br />
             <span>email:</span> Hannachicc@gmail.com<br />
