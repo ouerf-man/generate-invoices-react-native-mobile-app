@@ -66,8 +66,8 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
 
         .border th {
             border: 1px solid #000;
-            color: white;
-            background: #000;
+            color: #000;
+            background: rgb(204, 201, 201);
             padding: 5px;
             font-weight: normal;
             font-size: 14px;
@@ -124,7 +124,7 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
         header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             color: #717375;
             font-family: helvetica;
             line-height: 5mm;
@@ -169,29 +169,31 @@ export const HTML = (data = [], client = "", totaleLettre = "", type = 'facture'
     </style>
     <div id="invoice">
     <header>
-    <div>
-        <div id="info-g">
-            <div style="display: flex; justify-content: space-between;width: 400%;">
-                <h1 style="color: #717375;">
-                    EHTE
-                </h1>
-                <p style="font-size: 1.3em;color: #717375;margin-bottom: 10px;line-height: 1.1em;">Entreprise
-                    Hannachi Chouaib.<br />Travaux électriques générale</p>
-                <p style="line-height:25px;">
+            <div>
+                <div id="info-g">
+                    <div style="display: flex; justify-content: space-between;width: 400%;">
+                        <h1 style="color: #717375;">
+                            EHTE
+                        </h1>
+                        
+                        
+                    </div>
+                    <p style="line-height:25px;">
+                    Cité L'indépendance 6120, krib siliana <br /><span>Tel:</span> 58 130 838 <br />
+                    <div style="display: inline;position: relative;left: 130px;">
+                        - 90 614 146
+                    </div> <br /><span>Fax:</span> 78 895 036<br />
+                    <span>email:</span> Hannachicc@gmail.com<br />
+                    <span>Matricule fiscale:</span> 1658427/J
+                    </p>
+                </div>
             </div>
-            Cité L'indépendance 6120, krib siliana <br /><span>Tel:</span> 58 130 838 <br />
-            <div style="display: inline;position: relative;left: 130px;">
-                - 90 614 146
-            </div> <br /><span>Fax:</span> 78 895 036<br />
-            <span>email:</span> Hannachicc@gmail.com<br />
-            <span>Matricule fiscale:</span> 1658427/J
-            </p>
-        </div>
-    </div>
-    <div id="name">
-        <h2>${client}</h2>
-    </div>
-</header>
+            <p style="font-size: 1.3em;color: #717375;margin-bottom: 10px;line-height: 1.1em;">Entreprise
+                Hannachi Chouaib.<br />Travaux électriques générale</p>
+            <div id="name">
+                <h2>${client}</h2>
+            </div>
+        </header>
 
         <table style="margin-top: 30px;" id="table">
             <tr>
